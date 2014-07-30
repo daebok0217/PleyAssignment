@@ -240,6 +240,7 @@ body #content .registration .form_wrapper #loader .txt_loading {
   }
   body header #nav a.nav_home {
     zoom: 0.5;
+    margin: 5px;
   }
   body #content {
     padding: 15px 0 0px;
