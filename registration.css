@@ -233,10 +233,13 @@ body #content .registration .form_wrapper #loader .txt_loading {
 }
 @media only screen and (max-width: 480px) {
   body header {
-    zoom: 0.5;
+    height: 45px;
   }
   body header #nav {
     width: 100%;
+  }
+  body header #nav a.nav_home {
+    zoom: 0.5;
   }
   body #content {
     padding: 15px 0 0px;
