@@ -14,9 +14,7 @@ safari/ie
 
 It is made up of these language below
 
-HTML
-CSS(LESS)
-JQuery(CDN)
+HTML, CSS(LESS), JQuery(CDN)
 
 I didn't connect ajax, i just show you how to use.
 
