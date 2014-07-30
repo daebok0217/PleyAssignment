@@ -130,7 +130,7 @@ body #content .registration {
   margin: 0 auto;
 }
 body #content .registration h1 {
-  margin: 0px;
+  margin: 0;
   color: #62c7cc;
   font-size: 45px;
   font-weight: 300;
@@ -178,10 +178,10 @@ body #content .registration .form_wrapper #form li input {
   line-height: 20px;
   font-size: 15px;
   outline: 0;
-  border: 1px solid #888;
+  border: 1px solid #888888;
 }
 body #content .registration .form_wrapper #form li.error_box input {
-  border: 1px solid #f00;
+  border: 1px solid #ff0000;
 }
 body #content .registration .form_wrapper #form li .error {
   width: 100%;
@@ -190,7 +190,7 @@ body #content .registration .form_wrapper #form li .error {
   text-align: left;
   line-height: 30px;
   font-size: 14px;
-  color: #f00;
+  color: #ff0000;
 }
 body #content .registration .form_wrapper #form li .btn_wrapper {
   display: inline-block;
@@ -211,14 +211,14 @@ body #content .registration .form_wrapper #form li .btn_wrapper .btn {
 }
 body #content .registration .form_wrapper #form li .btn_wrapper .btn:hover,
 body #content .registration .form_wrapper #form li .btn_wrapper .btn:active {
-  background: #888;
+  background: #888888;
 }
 body #content .registration .form_wrapper #loader {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   background: rgba(128, 128, 128, 0.7);
   color: #fff;
   text-align: center;
@@ -233,13 +233,16 @@ body #content .registration .form_wrapper #loader .txt_loading {
 }
 @media only screen and (max-width: 480px) {
   body header {
-    zoom: 0.5;
+    height: 45px;
   }
   body header #nav {
     width: 100%;
   }
+  body header #nav a.nav_home {
+    zoom: 0.5;
+  }
   body #content {
-    padding: 15px 0 0px;
+    padding: 15px 0 0;
     font-size: 14px;
   }
   body #content .registration {
